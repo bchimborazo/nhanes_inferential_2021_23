@@ -32,8 +32,7 @@
     - Married with Less than Bachelor's: 2503
     - Not Married with Bachelor's or Higher: 998
     - Not Married with Less than Bachelor's: 2648
-- Interpretation of Results: Married individuals are more likely to have a bachelor's degree or higher compared to those who are not married.
-- Conclusion: There is a highly significant association between marital status and education level. 
+- Interpretation of Results and Conclusion: Married individuals are more likely to have a bachelor's degree or higher compared to those who are not married. There is a highly significant association between marital status and education level.
 
 ### Question 2: Is there a difference in the mean sedentary behavior time between those who are married and those who are not married?
 - Method of analysis: t-test 
@@ -47,8 +46,7 @@
   - t = -3.8609
   - Df = 7385.2
   - P-value = 0.0001139
-- Interpretation of Results: Non-married individuals spend more time in sedentary behavior (approximately 19 minutes more per day on average) compared to married individuals.
-- Conclusion: There is a statistically significant difference in sedentary behavior between married and not married individuals.
+- Interpretation of Results and Conclusion: Non-married individuals spend more time in sedentary behavior (approximately 19 minutes more per day on average) compared to married individuals. There is a statistically significant difference in sedentary behavior between married and not married individuals.
 
 
 ### Question 3: How do age and marital status affect systolic blood pressure?
@@ -70,7 +68,7 @@
   - R-squared results: 0.1344 (13.44%) variance in systolic blood pressure
   - Overall model F-statistic: 452.9 on 2 and 5832 DF
   - Overall model p-value: < 2.2e-16
-- Conclusion: Both age and marital status are significant predictors of systolic blood pressure with age being the dominant predictor. Increased age is associated with higher BP and so is non-married status.
+- Interpretation of Results and Conclusion: Both age and marital status are significant predictors of systolic blood pressure with age being the dominant predictor. Increased age is associated with higher BP and so is non-married status.
 
 
 ### Question 4: Is there a correlation between self-reported weight and minutes of sedentary behavior?
@@ -86,8 +84,7 @@
   - R-squared: 0.0243 (2.43%)
 - Interpretation: Weight explains only 2.43% of the variance in sedentary behavior
 - F-statistic: 198.3 on 1 and 7952 DF,  p-value: < 2.2e-16
-- Conclusion: Weight is a statistically significant predictor of sedentary behavior (p < 0.001). As weight increases, sedentary behavior time also increases.
-
+- Interpretation of Results and Conclusion: Weight is a statistically significant predictor of sedentary behavior. As weight increases, sedentary behavior time also increases.
 
 
 ### Question 5: Does mean sedentary behavior time differ across education levels?
@@ -106,6 +103,5 @@
     - High School/GED (3): 329.72 minutes (about 5.5 hours)
     - Some College (4): 363.30 minutes (about 6.1 hours)
     - College graduate or higher (5): 405.36 minutes (about 6.8 hours)
-- Interpretation: Sedentary behavior time increases with higher education levels. 
-- Conclusion: There is a highly statistically significant difference in mean sedentary behavior time across education levels. Sedentary behavior time increases with higher education levels. This might be because college graduates are more likely to work desk jobs which come with a sedentary work environment. 
+- Interpretation of Results and Conclusion: There is a highly statistically significant difference in mean sedentary behavior time across education levels. Sedentary behavior time increases with higher education levels. This might be because college graduates are more likely to work desk jobs which come with a sedentary work environment. 
 
