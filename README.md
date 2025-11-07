@@ -15,12 +15,12 @@
 |-----------|-------------|--------|
 | Question 1: Is there an association between marital status and education level? | Chi-square | Married individuals are more likely to have a bachelor's degree or higher compared to those who are not married. |
 | Question 2: Is there a difference in mean sedentary behavior time between married and not married individuals? | T-test | Non-married individuals spend MORE time in sedentary behavior (approximately 19 minutes more per day on average) compared to married individuals. |
-| Question 3: How do age and marital status affect systolic blood pressure? | Multiple Linear Regression | Age is the stronger predictor of the two variables. |
+| Question 3: How do age and marital status affect systolic blood pressure? | Multiple Linear Regression | Age is the stronger predictor of the two variables. Increased age and non-married status is associated with higher systolic BP.|
 | Question 4: Is there a correlation between self-reported weight and minutes of sedentary behavior? | Simple Regression | Weight IS a statistically significant predictor of sedentary behavior (p < 0.001). As weight increases, sedentary behavior time also increases. |
 | Question 5 Interpretation: Does mean sedentary behavior time differ across education levels? | ANOVA | Sedentary behavior time INCREASES with higher education levels. |
 
 ## R vs Python (Comparison and Preference)
-- In this assignment, I performed various statistical analyses on NHANES data. R's syntax for data filtering and subsetting was more concise while Python was a bit more complex. For statistical tests, R provided more straightforward built-in functions such as chisq.test(), t.test(), lm(), and aov(), whereas Python required importing multiple libraries like scipy.stats, statsmodels.api, and statsmodels.formula.api to perform the same tests. Overall, my preference is R because it requires fewer library imports, the syntax is easier to follow and I felt that the code was cleaner and more readable. 
+- In this assignment, I performed various statistical analyses using NHANES data. R's syntax for data filtering and subsetting was more concise while Python was a bit more complex. For statistical tests, R provided more straightforward built-in functions such as chisq.test(), t.test(), lm(), and aov(), whereas Python required importing multiple libraries like scipy.stats, statsmodels.api, and statsmodels.formula.api to perform the same tests. Overall, my preference is R because it requires fewer library imports, the syntax is easier to follow and I felt that the code was cleaner and more readable. 
 
 ## Explanation of Results
 
